@@ -1,0 +1,171 @@
+@charset "utf-8";
+/*
+   sample start file for final project - educational use only
+   
+   Author: Zoe Meyers  
+   Date: 4/4/2026   
+   
+  
+
+*/
+.orderButton {
+  border: none;
+  color: white;
+  padding: 30px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.orderButton {background-color:#e8aed2;} 
+.orderButton:hover{
+	background-color: white;
+	color:black}
+
+.contactButton {
+  border: none;
+  color: white;
+  padding: 30px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.contactButton {background-color:#e8aed2;} 
+.contactButton:hover{
+	background-color: white;
+	color: black}
+
+* {
+    margin: 0; 
+    padding: 0;
+}
+
+body {
+    font-size: 1.1em;
+    font-family: Arial, Helvetica, sans-serif;
+	background: linear-gradient(180deg, rgb(230, 230, 230) 30%, rgb(255, 230, 255) 90%);
+}
+
+#container {
+    width: 930px;
+    margin: 0 auto;
+}
+
+
+header {
+	height: 260px;
+    width: 910px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+nav {
+    width: 930px;
+    margin: 0 5px 0 5px; 
+    padding: 25px 10px 0 10px;
+	display: block;
+    float: top;
+    text-align: center;
+}
+
+nav ul {
+	list-style-type: none;
+    font-weight: bold;
+    list-style: none;
+	display: flex;
+}
+
+nav ul li a {
+	font-size: 1.2em;
+    padding: 20px;
+    color: black;
+    text-decoration: none;
+    display: flex;
+}
+
+nav ul li a:hover {
+    background: rgb(232, 174, 210);
+    color: white;
+}
+
+#main {
+    width: 450px;
+    padding: 50px;
+    float: right;
+    color: black;   
+    
+}
+
+#main p {
+    text-indent: 1.5em;
+}
+
+figure{
+    padding-top: 10px;
+    text-align: center;
+}
+
+figcaption {
+    font-style: italic;
+	text-align: center;
+}
+
+aside {
+    width: 300px;
+    margin: 0 5px 0 5px;
+    padding: 10px;
+    float: top left;
+}
+
+aside p {
+    font-style: italic;
+    font-size: 0.9em;
+}
+
+h2 {
+    font-size: 2em;
+    text-align: center;
+    padding-bottom: 0.5em;
+}
+
+h3 {
+    text-align: center;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+}
+
+footer {
+    width: 910px;
+    margin: 0;
+    padding: 10px;
+    background-color: rgb(232, 174, 210);
+    clear: both;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+#wrapper {
+    width: 930px;
+    margin-bottom: 10px;
+}/* navigation for footer */
+footer a:link {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:visited {
+    color: white;
+    background-color: grey;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
